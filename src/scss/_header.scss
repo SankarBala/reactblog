@@ -1,0 +1,13 @@
+header {
+  a {
+    color: #2c2d2f;
+    font-size: 50px;
+    font-family: "Playfair Display Bold";
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 15px;
+    &:hover {
+      color: #2c2d2f;
+    }
+  }
+}
