@@ -5,7 +5,7 @@ import SliderImage from "./../../assets/images/sliders/images.jpg";
 
 export default function Slider() {
     const scrollDown = () => {
-        window.scrollTo(0, 500);
+        window.scrollTo(0, 1000);
     }
     return (
         <div className="container-fluid py-5 px-3">

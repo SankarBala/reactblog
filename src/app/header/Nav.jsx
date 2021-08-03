@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, NavLink } from 'react-router-dom'
 
 import { FaBars, FaShoppingCart } from 'react-icons/all';
 
@@ -15,24 +16,25 @@ const Nav = () => {
                         </form>
                     </div>
 
-                    <div className="col-md-8">
-                        <nav id="menu">
-                            <ul>
-                                <li className="active"><a href="#">Home</a></li>
-                                <li className=""><a className="" href="#">Home</a></li>
-                                <li className=""><a className="" href="#">Features</a></li>
-                                <li className=""><a className="" href="#">Travel</a></li>
-                                <li className=""><a className="" href="#">Pages</a></li>
-                                <li className=""><a className="" href="#">Shop</a></li>
-                                <li className=""><a className="" href="#">About</a></li>
-                                <li className=""><a className="" href="#">Contact</a></li>
-                            </ul>
-                        </nav>
+                    <div className="col-md-8 text-center">
+                        <Router>
+                            <nav id="menu">
+                                <ul className="">
+                                    <li><NavLink activeClassName="active" exact to="/">Home</NavLink></li>
+                                    <li><NavLink activeClassName="active" exact to="/features">Features</NavLink></li>
+                                    <li><NavLink activeClassName="active" exact to="/travel">Travel</NavLink></li>
+                                    <li><NavLink activeClassName="active" exact to="/pages">Pages</NavLink></li>
+                                    <li><NavLink activeClassName="active" exact to="/shop">Shop</NavLink></li>
+                                    <li><NavLink activeClassName="active" exact to="about">About</NavLink></li>
+                                    <li><NavLink activeClassName="active" exact to="/contact">Contact</NavLink></li>
+                                </ul>
+                            </nav>
+                        </Router>
                     </div>
                     <div className="col-md-2 text-center">
 
-                        <FaShoppingCart className="mx-3 mt-4"/>
-                        <FaBars className="mx-3 mt-4"/>
+                        <FaShoppingCart className="mx-3 mt-3" />
+                        <FaBars className="mx-3 mt-3" />
 
                     </div>
 

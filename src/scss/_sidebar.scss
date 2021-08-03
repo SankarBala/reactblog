@@ -1,0 +1,103 @@
+aside {
+  background-color: rgba(153, 205, 50, 0);
+  position: relative;
+
+  .titleWrapper {
+    position: relative;
+
+    h3 {
+      font-family: Montserrat Bold;
+      color: black;
+
+      &:after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 50px;
+        background: black;
+        top: 50px;
+      }
+    }
+  }
+
+  .profilePhoto {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 500px;
+  }
+
+  .authorName {
+    font-family: Quentin;
+    font-size: 22px;
+  }
+  .socialIcon {
+    background-color: rgb(173, 173, 173);
+    border-radius: 10px;
+    margin: 2px;
+    a {
+      color: black;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .trendingPostWrapper {
+    position: relative;
+    .trendingPostImage {
+      width: 100%;
+      height: 400px;
+    }
+    h2 {
+      position: absolute;
+      top: 20%;
+      text-align: center;
+      width: 100%;
+      font-family: Montserrat Bold;
+    }
+    .block-title-wrapper {
+      width: 100%;
+      position: absolute;
+      top: 60%;
+      .block-title {
+        font-size: 20px;
+        color: black;
+        padding: 5px 20px;
+        border-radius: 100px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .popularPost {
+    .popularPostThumbnail {
+      width: 100%;
+      border-radius: 100%;
+    }
+    h4 {
+      font-family: Montserrat Bold;
+    }
+  }
+
+  .sidebarCatList {
+    .cat-btn {
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-family: Montserrat Bold;
+      opacity: 0.8;
+    }
+  }
+
+  .instagramGalary{
+      .instagramPhoto{
+          width: 100%;
+      }
+      .instaFooter {
+          font-family: Quentin;
+      }
+  }
+}

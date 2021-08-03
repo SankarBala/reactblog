@@ -1,9 +1,14 @@
 @import "bootstrap";
+@import "line-awesome/dist/line-awesome/scss/line-awesome.scss";
+
 @import "./variables";
 @import "./base";
 @import "./header";
 @import "./nav";
 @import "./slider";
+@import "./main";
+@import "./sidebar";
+
 @import "./footer";
 
 @import "./fonts";
