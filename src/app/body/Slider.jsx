@@ -8,7 +8,7 @@ export default function Slider() {
         window.scrollTo(0, 1000);
     }
     return (
-        <div className="container-fluid py-5 px-3">
+        <div className="container-fluid px-3">
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
 
                 <div className="carousel-inner">

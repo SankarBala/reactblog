@@ -1,5 +1,9 @@
 body {
-  background-color: $background ;
+  background-color: $background;
   margin: 0;
   padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
 }

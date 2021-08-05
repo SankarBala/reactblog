@@ -1,6 +1,6 @@
 import React from 'react'
 import { BiSend, BsArrowUp, FaFacebook, FaInstagram, FaPinterest, FaTwitter } from 'react-icons/all'
-import { Link } from 'react-router-dom'
+import {BrowserRouter as Router, Link } from 'react-router-dom'
 
 const Footer = () => {
     const backToTop = () => {
@@ -25,12 +25,14 @@ const Footer = () => {
                             <p className="subtitle">Personal blog</p>
 
                             <nav id="footerNav" className="my-4">
-                                <ul>
-                                    <li><Link className="" to="/home">Home</Link></li>
-                                    <li><Link className="" to="/shop">Shop</Link></li>
-                                    <li><Link className="" to="/about">About</Link></li>
-                                    <li><Link className="" to="/contact">Contact</Link></li>
-                                </ul>
+                                <Router>
+                                    <ul>
+                                        <li><Link className="" to={`${process.env.PUBLIC_URL}/`}>Home</Link></li>
+                                        <li><Link className="" to={`${process.env.PUBLIC_URL}/shop/`}>Shop</Link></li>
+                                        <li><Link className="" to={`${process.env.PUBLIC_URL}/about/`}>About</Link></li>
+                                        <li><Link className="" to={`${process.env.PUBLIC_URL}/contact/`}>Contact</Link></li>
+                                    </ul>
+                                </Router>
                             </nav>
                             <nav id="footerSocialNav" className="my-4">
                                 <ul>

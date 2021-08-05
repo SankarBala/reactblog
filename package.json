@@ -1,5 +1,6 @@
 {
   "name": "reactblog",
+  "homepage": "https://sankarbala.github.io/reactblogproduction",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

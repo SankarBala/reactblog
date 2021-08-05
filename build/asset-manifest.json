@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reactblogproduction/static/css/main.3e106f27.chunk.css",
+    "main.js": "/reactblogproduction/static/js/main.a8fda0f9.chunk.js",
+    "main.js.map": "/reactblogproduction/static/js/main.a8fda0f9.chunk.js.map",
+    "runtime-main.js": "/reactblogproduction/static/js/runtime-main.67a421de.js",
+    "runtime-main.js.map": "/reactblogproduction/static/js/runtime-main.67a421de.js.map",
+    "static/js/2.a27f7008.chunk.js": "/reactblogproduction/static/js/2.a27f7008.chunk.js",
+    "static/js/2.a27f7008.chunk.js.map": "/reactblogproduction/static/js/2.a27f7008.chunk.js.map",
+    "static/js/3.ed4a8fbb.chunk.js": "/reactblogproduction/static/js/3.ed4a8fbb.chunk.js",
+    "static/js/3.ed4a8fbb.chunk.js.map": "/reactblogproduction/static/js/3.ed4a8fbb.chunk.js.map",
+    "index.html": "/reactblogproduction/index.html",
+    "static/css/main.3e106f27.chunk.css.map": "/reactblogproduction/static/css/main.3e106f27.chunk.css.map",
+    "static/js/2.a27f7008.chunk.js.LICENSE.txt": "/reactblogproduction/static/js/2.a27f7008.chunk.js.LICENSE.txt",
+    "static/media/stylesheet.scss": "/reactblogproduction/static/media/la-solid-900.a8130346.svg",
+    "static/media/cameraman.636fe427.jpg": "/reactblogproduction/static/media/cameraman.636fe427.jpg",
+    "static/media/featureImage.10db2b7a.jpg": "/reactblogproduction/static/media/featureImage.10db2b7a.jpg",
+    "static/media/welcome.c6450627.jpg": "/reactblogproduction/static/media/welcome.c6450627.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67a421de.js",
+    "static/js/2.a27f7008.chunk.js",
+    "static/css/main.3e106f27.chunk.css",
+    "static/js/main.a8fda0f9.chunk.js"
+  ]
+}

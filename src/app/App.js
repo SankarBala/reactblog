@@ -10,7 +10,7 @@ import Nav from './header/Nav';
 function App() {
   return (
     <React.Fragment>
-      <Router>
+      <Router  basename={'/reactblogproduction/'}>
         <Header />
         <Nav />
         <Slider />
