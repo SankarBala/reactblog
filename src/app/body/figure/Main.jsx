@@ -30,12 +30,14 @@ const Main = () => {
                     </div>
 
                     <div className="row footer py-2">
-                        <div className="col-4 mt-2">FASSION</div>
-                        <div className="col-4 text-center">
-                            <Link className="btn btn-dark" to="">READ MORE</Link>
+                        <div className="col-4 pt-1"> 
+                        <Link to="" className="solid-link">FASSION</Link>
                         </div>
-                        <div className="col-4 mt-2  text-end">
-                            SHARE <i className="las la-share-alt las-lg" />
+                        <div className="col-4 text-center">
+                            <Link className="btn btn-dark btn-rounded" to="">READ MORE</Link>
+                        </div>
+                        <div className="col-4 pt-1 text-end">
+                            <Link to="" className="solid-link"> SHARE <i className="las la-share-alt" /></Link>
                         </div>
                     </div>
                 </div>

@@ -51,8 +51,8 @@ const Sidebar = () => {
                         <img src={ProfilePhoto} alt="profile" className="popularPostThumbnail" />
 
                     </div>
-                    <div className="col-8 text-start">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <div className="col-8 text-start text">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                         <h5 className="text-secondary">July 15, 2021</h5>
                     </div>
                 </div>
@@ -61,8 +61,8 @@ const Sidebar = () => {
                         <img src={ProfilePhoto} alt="profile" className="popularPostThumbnail" />
 
                     </div>
-                    <div className="col-8 text-start">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <div className="col-8 text-start text">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                         <h5 className="text-secondary">July 15, 2021</h5>
                     </div>
                 </div>
@@ -71,12 +71,12 @@ const Sidebar = () => {
                         <img src={ProfilePhoto} alt="profile" className="popularPostThumbnail" />
 
                     </div>
-                    <div className="col-8 text-start">
-                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <div className="col-8 text-start text">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                         <h5 className="text-secondary">July 15, 2021</h5>
                     </div>
                 </div>
-
+               
 
 
 
@@ -85,10 +85,10 @@ const Sidebar = () => {
 
 
             <div className="sidebarCatList">
-                <Link className="btn btn-secondary py-4 my-2 w-100 cat-btn" to="/">Interior</Link>
-                <Link className="btn btn-dark      py-4 my-2 w-100 cat-btn" to="/">Fashion</Link>
-                <Link className="btn btn-secondary py-4 my-2 w-100 cat-btn" to="/">Lifestyle</Link>
-                <Link className="btn btn-secondary py-4 my-2 w-100 cat-btn" to="/">Travel</Link>
+                <Link className="btn btn-lgt py-4 my-2 w-100 cat-btn" to="/">Interior</Link>
+                <Link className="btn btn-drt      py-4 my-2 w-100 cat-btn" to="/">Fashion</Link>
+                <Link className="btn btn-lgt py-4 my-2 w-100 cat-btn" to="/">Lifestyle</Link>
+                <Link className="btn btn-lgt py-4 my-2 w-100 cat-btn" to="/">Travel</Link>
             </div>
 
             <div className="instagramGalary py-5">

@@ -10,12 +10,15 @@ const Footer = () => {
         <footer className="mt-3 pt-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 bg-info text-center p-5 footerWidgetLeft">
-                        <div className="footerWidgetLeftContent">
+                    <div className="col-md-6 bg-info text-center footerWidgetLeft">
+                        <div className="footerWidgetLeftContent p-5">
                             <h2>It Just Got Personal</h2>
+                            <hr/>
                             <p className="my-5">Lorem, ipsum dolor sit ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rerum similique quia!</p>
-                            <input type="email" className="subscriptionbox" placeholder="Your email here" />
+                           <div className="flex justify-content-between">
+                            <input type="email" className="subscriptionbox flex-grow-1" placeholder="Your email here" />
                             <BiSend className="subscriptionbtn" />
+                           </div>
                         </div>
                     </div>
 

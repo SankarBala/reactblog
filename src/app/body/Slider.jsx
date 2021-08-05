@@ -13,7 +13,7 @@ export default function Slider() {
 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={SliderImage} className="d-block w-100" alt="..." />
+                        <img src={SliderImage} className="d-block w-100 sliderImage" alt="..." />
                         <div className="carousel-caption d-block">
                             <h5 onClick={scrollDown}>SCROLL</h5>
                             <p onClick={scrollDown}><FaArrowDown /></p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import WelcomeImg from './../../assets/images/welcome.jpg';
 import FeatureImage from './../../assets/images/featureImage.jpg';
+import { FaInstagram } from 'react-icons/fa';
 
 export default function Welcome() {
     return (
@@ -24,6 +25,7 @@ export default function Welcome() {
                             <div className="mx-1"><img className="" width="100%" height="" src={FeatureImage} alt="featured"/></div>
                             <div className="mx-1"><img className="" width="100%" height="" src={FeatureImage} alt="featured"/></div>
                             <div className="mx-1"><img className="" width="100%" height="" src={FeatureImage} alt="featured"/></div>
+                            <p className="insta-vertical"><FaInstagram className="mr-2"/> follow me!</p>
                         </div>
                     </div>
                 </div>
